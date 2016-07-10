@@ -6,6 +6,7 @@
   "scripts": {
     "test": "karma start",
     "test:watch": "npm test -- --auto-watch --no-single-run",
+    "test:phantomjs": "karma start --browsers PhantomJS",
     "clean": "rimraf build",
     "prestart": "npm run clean",
     "start": "webpack-dev-server --env.dev --content-base build",
@@ -35,8 +36,10 @@
     "karma-chrome-launcher": "1.0.1",
     "karma-coverage": "1.1.0",
     "karma-mocha": "1.1.1",
+    "karma-phantomjs-launcher": "1.0.1",
     "karma-webpack": "1.7.0",
     "mocha": "2.5.3",
+    "phantomjs": "2.1.7",
     "rimraf": "2.5.3",
     "style-loader": "0.13.1",
     "webpack": "2.1.0-beta.13",
