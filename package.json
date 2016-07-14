@@ -1,7 +1,11 @@
 {
-  "name": "testing",
-  "version": "1.0.0",
-  "description": "",
+  "name": "es6-testing",
+  "version": "0.0.1",
+  "description": "es6 test and coverage starter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dryror/es6-testing.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "karma start",
